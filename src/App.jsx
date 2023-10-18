@@ -38,7 +38,7 @@ export default function App() {
               to-red-400
               font-mooli
               ">
-                The latest on UK radishes, updated weekly.
+                The latest on UK radishes, updated now and then.
             </h2>
           </div>
 
@@ -52,6 +52,8 @@ export default function App() {
 
       <footer className="text-center">
         <p className="text-slate-50 my-5"><a href="https://jonothan.dev">Jonothan.dev</a></p>
+        <p className="text-slate-50 my-5"><a href="https://github.com/jonothanhunt/radish-quest">Source on GitHub</a></p>
+        
       </footer>
     </div>
   );
