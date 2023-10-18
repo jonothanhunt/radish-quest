@@ -51,7 +51,7 @@ export default function App() {
       </main>
 
       <footer className="text-center">
-        <p className="text-slate-50 my-5">This site is by <a href="https://jonothan.dev">Jonothan.dev</a></p>
+        <p className="text-slate-50 my-5"><a href="https://jonothan.dev">Jonothan.dev</a></p>
       </footer>
     </div>
   );
