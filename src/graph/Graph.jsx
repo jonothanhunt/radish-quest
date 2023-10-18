@@ -17,7 +17,8 @@ export function Graph(props) {
             <div ref={scrollerRef} style={{scrollbarColor: "dark"}} className="h-200 rounded-lg bg-gradient-to-br from-zinc-800 to-zinc-950 p-4 overflow-x-auto overflow-y-hidden">
 
                 <div className="flex gap-4 mb-4">
-                    {radishData.reverse().map((update, index) => (
+                    {/* .reverse() */}
+                    {radishData.map((update, index) => (
                         <GraphCard
                             key={"update_" + index}
 
